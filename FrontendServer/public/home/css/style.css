@@ -1,0 +1,19 @@
+@import url('tailwind.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#blogPosts {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.blog-post {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
